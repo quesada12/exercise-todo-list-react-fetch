@@ -1,41 +1,23 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
+# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) React TODO application
+
+<p align="center">
+  <img height="200" src="https://github.com/breatheco-de/exercise-todo-list/blob/master/preview.gif?raw=true" />
 </p>
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+Create a TODO list application that allows users to add and delete tasks.
 
-##### Download the boilerplate using git
+## 📝 Instructions
+- You app needs to look [like this](https://github.com/breatheco-de/exercise-todo-list/blob/master/preview.gif?raw=true).
+- The tasks are added when the user press enter on the keyboard or you can have your own button.
+- The delete icon shows only when the task is hovered.
+- The use can add as many tasks as it wants.
+- When there is no tasks the list should "No tasks, add a task"
+- There is no way to update a task, the user will ahve to delete and create again.
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+## 💡 Tips to finish this project
 
-##### and install the npm package:
-```
-$ npm install
-```
+Do not go straight to the code, think first and have a viable trategy.
 
-## Start coding!
-
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
-
-You can update the `styles/index.scss` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
-
-## Publish your website!
-
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
-
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
-
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+- What components will you create? Draw the project on a white paper and identify components.
+- Where are the stasks going to be stored in your component?
+- Read about [controlled components inputs in react.js](https://www.youtube.com/watch?v=A6YxkyR_T8c), you will need to understand the concept.
